@@ -6,11 +6,11 @@
   <body>
     <a-scene embedded arjs='petternRatio:0.7'>
       <a-assets>
-        <a-asset-item id="piano" src="Piano.glb"></a-asset-item>
+        <a-asset-item id="piano" src="asset/Piano.glb"></a-asset-item>
       </a-assets>
       <!--a-marker-camera preset="hiro"-->
         <a-marker type='pattern' url='path/pattern-1.patt'>
-          <a-gltf-model src="#tree"></a-gltf-model>
+          <a-gltf-model src="#piano"></a-gltf-model>
         </a-marker>
           <a-entity camera> </a-entity>
       </a-scene>
